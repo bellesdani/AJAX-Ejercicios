@@ -1,0 +1,24 @@
+#cuadrado{
+    height: 350px;
+    width: 350px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    background-color: red;
+    margin:0px auto
+
+}
+
+#cubo{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    position: absolute;
+
+}
+
+#btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
