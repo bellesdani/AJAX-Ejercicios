@@ -1,0 +1,11 @@
+.carrusel {
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+}
+  
+  .carrusel img {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
