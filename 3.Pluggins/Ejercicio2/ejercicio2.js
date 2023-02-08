@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $('p').css('opacity','0')
+    $('#sal').click(function(){
+        $('p').css('opacity','1')
+    })
+    $('#des').click(function(){
+        $('p').css('opacity','0')
+    })
+})

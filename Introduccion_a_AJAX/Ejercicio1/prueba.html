@@ -1,0 +1,45 @@
+<html>
+  <head>
+  <title>Ejemplo con Ajax para sacar Fichero de Texto </title>
+
+  <script type = "text/javascript">
+
+  var xttp = false;
+
+  if (window.XMLHttpRequest) {
+  xttp = new XMLHttpRequest();
+  } else if (window.ActiveXObject) {
+  xttp = new ActiveXObject("Microsoft.XMLHTTP");
+  }
+
+  function sacardatos(datos, idDiv){
+if(xttp) {
+var objeto = document.getElementById(idDiv);
+xttp.open("GET", datos);
+xttp.onreadystatechange = function(){
+if (xttp.readyState == 4 &&                   
+xttp.status == 200) {
+objeto.innerHTML = xttp.responseText;
+                             }
+  
+                                                    }
+xttp.send(null);
+                            } 
+                                        }
+  </script>
+
+  
+  </head>
+  <body>
+  <H1>Mostrar Fichero de Texto en Ajax</H1>
+  <form>
+                                                                                                                                                                                                  Página 3 de 8
+                                              
+  <input type = "button" value = "Mostrar Fichero" onclick =   
+"sacardatos('datos.txt','contenedor')">
+  </form>
+  <div id="contenedor" style="background-color:#99FF66;">
+  <p> Mostrar&aacute; contenido del fichero </p>
+  </div>
+ </body>
+</html>

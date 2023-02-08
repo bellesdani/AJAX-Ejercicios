@@ -1,0 +1,20 @@
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $('#img').hide();
+    })
+    $("#mos").click(function(){
+        $('#img').show();
+    })
+    $("#img").mouseover(function(){
+        $('#img').fadeTo('slow','0.5');
+    })
+    $("#img").mouseout(function(){
+        $('#img').fadeTo('slow','1');
+    })
+    $("#slideDown").click(function(){
+        $('#img').slideDown();
+    })
+    $("#slideUp").click(function(){
+        $('#img').slideUp();
+    })
+})

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Obras_literarias>
+  <Libro>
+     <Autor>Juan Rulfo</Autor>
+     <Titulo>Pedro Páramo</Titulo>
+  </Libro>
+  <Libro>
+     <Autor>Juan Rulfo</Autor>
+     <Titulo>El Llano en Llamas</Titulo>
+  </Libro>
+  <Libro>
+     <Autor>Pablo Neruda</Autor>
+     <Titulo>Veinte poemas de amor y una canción desesperada</Titulo>
+  </Libro>
+  <Libro>
+     <Autor>Miguel de Cervantes Saavedra</Autor>
+     <Titulo>Don Quijote de la Mancha</Titulo>
+  </Libro>
+  <Libro>
+     <Autor>Jorge Luis Borges</Autor>
+     <Titulo>Ficciones</Titulo>
+  </Libro>
+</Obras_literarias><taxonomy>
+    <page title="Mi Escuela">
+     <page title="Trimestre" />
+   </page>
+   <page title="Clase">
+    <page title="2005">
+     <page title="Informática" />
+     <page title="Matemáticas" />
+     <page title="Inglés" />
+    </page>
+    <page title="2004">
+     <page title="Informática" />
+     <page title="Matemáticas" />
+     <page title="Inglés" />
+     </page>
+    <page title="2003">
+     <page title="Informática" />
+     <page title="Matemáticas" />
+     <page title="Inglés" />
+     </page>
+    <page title="2002">
+     <page title="Informática" />
+     <page title="Matemáticas" />
+     <page title="Inglés" />
+     </page>
+    <page title="2001">
+     <page title="Informática" />
+     <page title="Matemáticas" />
+     <page title="Inglés" />
+    </page>
+   </page>
+   <page title="Agenda de Teléfonos">
+     <page title="Empleados">
+      <page title="Profesores" />
+      <page title="Maestros" />
+      <page title="Soporte" />
+     </page>
+     <page title="Estudiantes">
+      <page title="Actuales" />
+      <page title="Ex-alumnos" />
+     </page>
+    </page>
+   <page title="Manuales">
+     <page title="Políticas y Procedimientos">
+      <page title="Empleados" />
+      <page title="Estudiantes" />
+   </page>
+     <page title="Ayuda Financiera" />
+     <page title="Formularios" />
+   </page>
+    <page title="Biblioteca">
+     <page title="Novedades" />
+     <page title="Manuales de Referencia" />
+     <page title="Acceso a Internet" />
+   </page>
+   <page title="Objetos Perdidos">
+   </page>
+   </taxonomy>
